@@ -1,0 +1,22 @@
+# Codline AI - Recommended Write Order
+
+1. chat/memory.py
+   - TextMemory
+   - SummaryMemory
+
+2. chat/prompts.py
+   - System prompts
+   - ChatPromptTemplate builder
+
+3. chat/llm.py
+   - generate_reply(messages)
+   - summarize_conversation(text)
+
+4. chat/chatbot.py
+   - Chatbot class
+   - ask(user_input) method
+   - maybe_update_summary()
+
+5. main.py
+   - Simple CLI loop
+   - Hook into Chatbot.ask()
