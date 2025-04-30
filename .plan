@@ -1,8 +1,8 @@
 # Codline AI - Recommended Write Order
 
 1. chat/memory.py
-   - TextMemory
-   - SummaryMemory
+   - CodBufferMemory
+   - CodSummaryMemory
 
 2. chat/prompts.py
    - System prompts
